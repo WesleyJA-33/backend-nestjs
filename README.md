@@ -30,14 +30,13 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 ### Instalação
 
 1.  **Clone o repositório:**
-    ```No CMD
-    git clone [https://github.com/seu-usuario/nome-do-repositorio-backend.git](https://github.com/seu-usuario/nome-do-repositorio-backend.git)
-    cd nome-do-repositorio-backend
+    ```bash
+    git clone https://github.com/WesleyJA-33/backend-nestjs.git backend
+    cd backend
     ```
-    (Substitua `seu-usuario` e `nome-do-repositorio-backend` pelos seus dados)
 
 2.  **Instale as dependências:**
-    ```No CMD
+    ```bash
     npm install
     # ou yarn install
     ```
@@ -46,6 +45,6 @@ Certifique-se de ter as seguintes ferramentas instaladas:
 
 Para iniciar o servidor de desenvolvimento do NestJS:
 
-```No CMD
+```bash
 npm run start:dev
 # ou yarn start:dev
